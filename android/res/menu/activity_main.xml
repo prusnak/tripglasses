@@ -1,5 +1,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
-        android:orderInCategory="100" />
+    <item android:id="@+id/menu_auto" android:title="@string/menu_auto" android:orderInCategory="100" />
+    <item android:id="@+id/menu_alpha" android:title="@string/menu_alpha" android:orderInCategory="101" />
+    <item android:id="@+id/menu_beta" android:title="@string/menu_beta" android:orderInCategory="102" />
+    <item android:id="@+id/menu_delta" android:title="@string/menu_delta" android:orderInCategory="103" />
+    <item android:id="@+id/menu_theta" android:title="@string/menu_theta" android:orderInCategory="104" />
+    <item android:id="@+id/menu_exit" android:title="@string/menu_exit" android:orderInCategory="105" />
 </menu>
