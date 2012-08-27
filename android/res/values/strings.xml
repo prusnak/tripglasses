@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Trip Glasses</string>
-    <string name="menu_auto">Auto</string>
     <string name="menu_alpha">Alpha</string>
     <string name="menu_beta">Beta</string>
     <string name="menu_delta">Delta</string>

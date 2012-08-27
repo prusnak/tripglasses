@@ -8,6 +8,7 @@
             android:id="@+id/rectangle"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="" />
+            android:gravity="center"
+            android:textColor="#FF00FFFF" />
 
 </LinearLayout>

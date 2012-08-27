@@ -26,6 +26,7 @@ public class AudioThread extends Thread {
     }
 
     public void finish() {
+        audio.stop();
         finished = true;
     }
 
