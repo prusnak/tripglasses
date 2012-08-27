@@ -5,19 +5,9 @@
     android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/eyeLeft"
+            android:id="@+id/rectangle"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#ffff0000"
-            android:text="" />
-
-        <TextView
-            android:id="@+id/eyeRight"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#ff0000ff"
+            android:layout_height="fill_parent"
             android:text="" />
 
 </LinearLayout>
