@@ -73,9 +73,15 @@ public class MainActivity extends Activity {
     public void finish() {
         audio.finish();
         video.finish();
+        scheduler.finish();
         super.finish();
     }
 
+    @Override
+    protected void onPause() {
+        finish();
+        super.onPause();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
